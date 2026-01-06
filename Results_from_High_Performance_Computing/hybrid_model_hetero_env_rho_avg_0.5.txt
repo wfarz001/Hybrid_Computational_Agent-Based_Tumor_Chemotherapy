@@ -1,0 +1,39 @@
+=== Initializing Hybrid Tumor Model ===
+Configuration:
+  - Drug effectiveness P_gamma = 0.05
+  - Simulation duration = 120 days
+  - Quasi-parallel coupling steps = 50 per day
+Hybrid Simulator Configuration:
+  N_1 (diffusion substeps per coupling): 10
+  N_p (coupling steps per day): 50
+  N_a (CA substeps per coupling): 5
+  N_0 (total proliferative cells to divide/day): 250
+  Diffusion time step: 172.8 seconds (2.9 minutes)
+  Coupling time step: 1728.0 seconds (28.8 minutes)
+
+=== Starting CORRECTED Hybrid Simulation ===
+Configuration:
+  - Drug effectiveness P_? = 0.05
+  - Simulation duration = 120 days
+  - Total diffusion steps per day: 500
+  - Total CA steps per day: 250
+  - Initial proliferative radius: 12.31 mm
+  - Initial invasive cells: 17
+Day   0: Radius = 13.06 mm, Divisions =   2, Invasive =  17, Prolif =  18, Drug(avg/max) = 0.0687/0.8761
+Day  20: Radius = 17.43 mm, Divisions =   3, Invasive =  18, Prolif =  42, Drug(avg/max) = 0.1539/0.9588
+Day  40: Radius = 25.46 mm, Divisions =   5, Invasive =  18, Prolif =  60, Drug(avg/max) = 0.2430/1.0550
+Day  60: Radius = 34.57 mm, Divisions =   8, Invasive =  18, Prolif =  88, Drug(avg/max) = 0.3645/1.3056
+Day  80: Radius = 41.45 mm, Divisions =  14, Invasive =  18, Prolif = 154, Drug(avg/max) = 0.4916/1.7616
+Day 100: Radius = 46.82 mm, Divisions =  13, Invasive =  19, Prolif = 145, Drug(avg/max) = 0.3158/2.3046
+Day 119: Radius = 51.33 mm, Divisions =  11, Invasive =  19, Prolif = 113, Drug(avg/max) = 0.1008/2.2495
+
+=== Simulation Complete ===
+Final proliferative radius: 51.33 mm
+Final Invasive radius: 39.00 mm
+Final number of invasive cells: 19
+Final number of proliferative cells: 113
+Total tumor cells: 132
+
+=== Generating Plots ===
+The simulation is completed
+- 20.64 hours
